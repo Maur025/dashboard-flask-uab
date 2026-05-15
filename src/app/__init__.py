@@ -1,11 +1,12 @@
 from flask import Flask
 
 from .extensions import appbuilder, db
+from .. import config
 
 
 def create_app() -> Flask:
     app = Flask(__name__)
-    app.config.from_object("config")
+    app.config.from_object(config)
 
     db.init_app(app)
 
