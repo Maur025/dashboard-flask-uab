@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="uv (flask-app-uab-lesson)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="uv (dashboard-flask-uab)" project-jdk-type="Python SDK" />
 </project>
